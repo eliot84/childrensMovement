@@ -70,35 +70,36 @@
 
                  <p>By 2020, the United States is expected to face a shortage of 1.5 million workers with college degrees but will have a surplus of 6 million individuals without a high school diploma who are unemployed because they lack necessary educational credentials.</p>
 
-                 <div id="chart"></div>
+                 
 
      
 
           <div class="row">
-            <div class="col-xs-12 col-lg-6">
+            <div class="col-xs-12 col-md-6 col-lg-6">
               <h2>U.S. Population Growth Trends</h2>
+              <div id="chart"></div>
               <p>Show U.S. current population growth trends and possible projected growth.  If possible, by race</p>
             
             </div><!--/.col-xs-6.col-lg-4-->
-            <div class="col-xs-12 col-lg-6">
+            <div class="col-xs-12 col-md-6 col-lg-6">
               <h2>Income to certification Trends</h2>
               <p>Current Income to Certification Trends ( 2000 - 2013) // possible projected? </p>
             </div><!--/.col-xs-6.col-lg-4-->
-            <div class="col-xs-12 col-lg-6">
+            <div class="col-xs-12 col-md-6 col-lg-6">
               <h2>School Enrollment Trends</h2>
               <p>Current school enrollement trends including 2013 - 2014</p>
               
             </div><!--/.col-xs-6.col-lg-4-->
-            <div class="col-xs-12 col-lg-6">
+            <div class="col-xs-12 col-md-6 col-lg-6">
               <h2>Unemployment Rates</h2>
               <p>Unemployment Rates by Age Group and Educational Attainment. Ages 20 - 24 and 25 - 64 (Tree Mapping)</p>
              
             </div><!--/.col-xs-6.col-lg-4-->
-            <div class="col-xs-12 col-lg-6">
+            <div class="col-xs-12 col-md-6 col-lg-6">
               <h2>Certification Barriers</h2>
               <p>Show the barriers created by higher education admissions at different levels of education currently. (Sankey chart). </p>
             </div><!--/.col-xs-6.col-lg-4-->
-            <div class="col-xs-12 col-lg-6">
+            <div class="col-xs-12 col-md-6 col-lg-6">
               <h2>Education Costs</h2>
               <p>how Cost projections for varying types of education or possible cheap online edu </p>
              
@@ -125,7 +126,7 @@
       <hr>
 
       <footer>
-        <p>&copy; Company 2014</p>
+        <p>&copy; Company 2015</p>
       </footer>
 
     </div><!--/.container-->
@@ -144,17 +145,11 @@
     <script src="js/d3.min.js"></script>
     <script src="js/c3.min.js"></script>
 
-                <script>
-                 var chart = c3.generate({
-                 bindto: '#chart',
-                   data: {
-                   columns: [
-                   ['data1', 30, 200, 100, 400, 150, 250],
-                   ['data2', 50, 20, 10, 40, 15, 25]
-                            ]
-                         }
-                  });
-                 </script>
+    
+    <!-- LOAD ALL CHARTS -->
+
+    <script src="charts/0startExample.js"></script>
+
   </body>
 </html>
 
