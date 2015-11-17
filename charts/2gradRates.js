@@ -19,6 +19,12 @@ var gradRates = c3.generate({
         // or
         //width: 100 // this makes bar width 100px
     },
+     grid: {
+    
+        y: {
+            show: true
+        }
+    },
     axis: {
 
     	y: {
